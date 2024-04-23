@@ -2,8 +2,8 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "jest": true,
-        "codeceptjs/codeceptjs": true
+        "node": true,
+        "jest": true
     },
     "extends": "airbnb-base",
     "parserOptions": {

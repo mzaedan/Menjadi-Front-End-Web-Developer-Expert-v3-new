@@ -6,6 +6,10 @@ class FavoriteRestaurantSearchView {
       <h2>
         <span class="title-content">Your Favorited Restaurant</span>
       </h2>
+      <div id="restaurant-search-container">
+        <input id="query" class="search-box" type="search" placeholder="Search for a restaurant" aria-label="Search for a restaurant">
+        <div id="resto-list" class="row resto-list"></div>
+      </div>
     `;
   }
 

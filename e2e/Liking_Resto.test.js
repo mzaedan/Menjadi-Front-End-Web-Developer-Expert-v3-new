@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const assert = require('assert');
 
 Feature('Favoriting Restaurant');
@@ -10,7 +11,6 @@ Scenario('showing empty favorited restaurant', ({ I }) => {
   I.seeElement('#query');
   I.see('Tidak ada restaurant untuk ditampilkan', '#resto-item__not__found');
 });
-
 
 Scenario('liking one restaurant', async ({ I }) => {
   I.amOnPage('/');
